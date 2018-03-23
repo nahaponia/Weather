@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DayCollectionViewCell" id="gTV-IL-0wX" customClass="DayCollectionViewCell" customModule="Weather" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="262"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="262"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VaV-4P-HIy">
+                        <rect key="frame" x="8" y="8" width="359" height="246"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14 °C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrO-YH-qA4">
+                                <rect key="frame" x="0.0" y="97.5" width="359" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <color key="textColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Los Angeles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ii1-NS-eH2">
+                                <rect key="frame" x="0.0" y="32" width="359" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunny" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Nx-fj-dHz">
+                                <rect key="frame" x="0.0" y="73.5" width="359" height="6"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <color key="textColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="0.9155547752808989" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aj0-py-JZi">
+                                <rect key="frame" x="24" y="184.5" width="65" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RnS-nU-a7m">
+                                <rect key="frame" x="317" y="184.5" width="18" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTh-In-cYh">
+                                <rect key="frame" x="279" y="184.5" width="16" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12549019607843137" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9Nx-fj-dHz" firstAttribute="trailing" secondItem="Ii1-NS-eH2" secondAttribute="trailing" id="3R5-da-WTv"/>
+                            <constraint firstItem="HrO-YH-qA4" firstAttribute="top" secondItem="Ii1-NS-eH2" secondAttribute="bottom" constant="32" id="9Y3-sV-SyV"/>
+                            <constraint firstItem="RnS-nU-a7m" firstAttribute="leading" secondItem="UTh-In-cYh" secondAttribute="trailing" constant="22" id="D3U-sj-nDw"/>
+                            <constraint firstItem="aj0-py-JZi" firstAttribute="leading" secondItem="VaV-4P-HIy" secondAttribute="leading" constant="24" id="HME-RP-PHF"/>
+                            <constraint firstItem="9Nx-fj-dHz" firstAttribute="top" secondItem="Ii1-NS-eH2" secondAttribute="bottom" constant="8" id="Hcw-fk-MSn"/>
+                            <constraint firstItem="9Nx-fj-dHz" firstAttribute="leading" secondItem="Ii1-NS-eH2" secondAttribute="leading" id="Hd5-OI-QLe"/>
+                            <constraint firstItem="HrO-YH-qA4" firstAttribute="leading" secondItem="VaV-4P-HIy" secondAttribute="leading" id="Jdj-a3-fDR"/>
+                            <constraint firstAttribute="trailing" secondItem="Ii1-NS-eH2" secondAttribute="trailing" id="NRv-68-ONY"/>
+                            <constraint firstItem="HrO-YH-qA4" firstAttribute="top" secondItem="9Nx-fj-dHz" secondAttribute="bottom" constant="18" id="QfY-Uq-5F5"/>
+                            <constraint firstAttribute="trailing" secondItem="HrO-YH-qA4" secondAttribute="trailing" id="S5B-eH-2Pt"/>
+                            <constraint firstItem="RnS-nU-a7m" firstAttribute="top" secondItem="HrO-YH-qA4" secondAttribute="bottom" constant="38" id="b2W-FW-pWR"/>
+                            <constraint firstItem="UTh-In-cYh" firstAttribute="top" secondItem="HrO-YH-qA4" secondAttribute="bottom" constant="38" id="ngL-vD-cko"/>
+                            <constraint firstAttribute="trailing" secondItem="RnS-nU-a7m" secondAttribute="trailing" constant="24" id="sfg-8F-Fil"/>
+                            <constraint firstItem="Ii1-NS-eH2" firstAttribute="leading" secondItem="VaV-4P-HIy" secondAttribute="leading" id="sy7-iN-bcX"/>
+                            <constraint firstItem="aj0-py-JZi" firstAttribute="top" secondItem="HrO-YH-qA4" secondAttribute="bottom" constant="38" id="tHX-eM-Hzu"/>
+                            <constraint firstItem="Ii1-NS-eH2" firstAttribute="top" secondItem="VaV-4P-HIy" secondAttribute="top" constant="32" id="u8I-uY-vFW"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="9Nx-fj-dHz"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="VaV-4P-HIy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="0wJ-DS-Zv9"/>
+                <constraint firstAttribute="bottom" secondItem="VaV-4P-HIy" secondAttribute="bottom" constant="8" id="7CM-Ms-lQM"/>
+                <constraint firstAttribute="trailing" secondItem="VaV-4P-HIy" secondAttribute="trailing" constant="8" id="FgS-ZR-8Hw"/>
+                <constraint firstItem="VaV-4P-HIy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="nQ2-Mk-ynK"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="cityLabel" destination="Ii1-NS-eH2" id="3JD-Za-hhJ"/>
+                <outlet property="currentCityTopSpacing" destination="u8I-uY-vFW" id="l4I-oV-lZc"/>
+                <outlet property="currentTempLabel" destination="HrO-YH-qA4" id="eAY-2C-gcN"/>
+                <outlet property="dateLabel" destination="aj0-py-JZi" id="pDs-lt-dV5"/>
+                <outlet property="maxTemplabel" destination="UTh-In-cYh" id="55C-LL-TdM"/>
+                <outlet property="minTempLabel" destination="RnS-nU-a7m" id="4wf-a7-wSW"/>
+                <outlet property="skyLabel" destination="9Nx-fj-dHz" id="n6p-nf-ObY"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>
